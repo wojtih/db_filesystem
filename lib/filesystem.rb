@@ -25,14 +25,17 @@ module FileSystem
 
     # Returns File object from given path with given name
     def self.read(path, file_name)
+      # .....
     end
 
     # Removes file from directory files array
     def destroy
+      # .....
     end
 
     # Adds new file to directory files array
     def save
+      # .....
     end
 
     # Returns Directory object
@@ -63,26 +66,31 @@ module FileSystem
 
     # Adds new key to redis, with empty value (no files)
     def save  
+      # .....
     end
 
     # Removes path from redis (remove key)
     # Removes all subdirectories
     def destroy 
+      # .....
     end
 
     # Returns array od Directory objects
     # Uses Redis keys matching pattern to fetch paths.
     def subdirectories  
+      # .....
     end
 
     # Returns array of File objects
-    def files   
+    def files
+      # .....   
     end
   end
 
   class DirectoryUtils
     # Checks if key exists in Redis
     def self.path_exists?(path)
+      # .....
     end
   end
 
@@ -90,10 +98,12 @@ module FileSystem
     class << self
       # Moves file to other path
       def mv(from_path, to_path)        
+        # .....
       end
 
       # Makes copy of file in other directory
       def cp(from_path, to_path)      
+        # .....
       end
     end
   end
