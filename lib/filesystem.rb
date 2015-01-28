@@ -7,6 +7,7 @@
 # 	"var/logs/nginx" => [ File, File, File ...] 
 # }
 
+
 module FileSystem
 	class File
 		attr_reader :data, :path, :file_name
@@ -97,7 +98,7 @@ module FileSystem
 			end
 		end
 	end
-
+	
 	class InvalidPathError < ArgumentError
 	end
 end
