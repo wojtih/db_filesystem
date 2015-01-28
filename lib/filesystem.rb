@@ -7,7 +7,6 @@
 # 	"var/logs/nginx" => [ File, File, File ...] 
 # }
 
-
 module FileSystem
 	class File
 		attr_reader :data, :path, :file_name
